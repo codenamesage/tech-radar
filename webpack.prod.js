@@ -27,6 +27,9 @@ Object.entries(featureToggles).forEach(function ([key, value]) {
 module.exports = merge(common, {
   mode: 'production',
   entry: { main },
+  output: {
+    publicPath: '/tech-radar/'
+  },
   performance: {
     hints: false,
   },
