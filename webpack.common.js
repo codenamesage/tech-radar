@@ -25,8 +25,9 @@ const plugins = [
     template: './src/index.html',
     chunks: ['main'],
     inject: 'body',
-    base: ASSET_PATH,
-    publicPath: ASSET_PATH,
+    templateParameters: {
+      base: ASSET_PATH,
+    },
   }),
   new CopyWebpackPlugin({
     patterns: [{ from: 'public', to: '' }],
