@@ -13,25 +13,21 @@
   </head>
 
   <body>
-    <header class="input-sheet__logo">
-      <div>
+    <header class="radar-title">
+      <h1 class="radar-title__text">Tech Radar</h1>
+      <div class="input-sheet__logo">
         <span>Powered by</span>
-        <a href="https://www.thoughtworks.com"><img src="<%= base %>images/tw-logo.png" alt="Thoughtworks logo" /></a>
+        <a href="https://next.ride.capital"><img src="<%= base %>images/RIDE-logo-color.png" alt="Ride Capital logo" /></a>
       </div>
     </header>
-    <div class="hero-banner">
-      <div class="hero-banner__wrapper">
-        <h1 class="hero-banner__title-text">Build your own Radar</h1>
-      </div>
-    </div>
+    
     <main>
       <div id="pdf-cover-page">
-        <img class="pdf-banner-image" src="<%= base %>images/pdf_banner.png" alt="Pdf cover image" width="100%" height="300px" />
-        <h1 class="pdf-title"></h1>
+        <h1 class="pdf-title">RIDE Capital Tech Radar</h1>
         <div class="pdf-powered-by-text">
           <span>Powered by</span>
-          <a href="https://www.thoughtworks.com">
-            <img class="pdf-tw-logo" src="<%= base %>images/tw-logo.png" alt="logo" />
+          <a href="https://next.ride.capital">
+            <img class="pdf-ride-logo" src="<%= base %>images/RIDE-logo-color.png" alt="logo" />
           </a>
         </div>
       </div>
@@ -77,34 +73,38 @@
         </p>
       </div>
       <div class="all-quadrants-mobile show-all-quadrants-mobile"></div>
-      <div class="graph-footer"></div>
+      <div class="graph-footer">
+        <div class="description">
+          <p>Each insight we share is represented by a blip. Blips may be new to the latest Radar volume, or they can move rings as our recommendation has changed.&nbsp;</p>
+          <p>The rings are:</p>
+          <ul>
+            <li><p><b>Adopt</b>. Blips that we think you should seriously consider using.</p>
+            </li>
+            <li><p><b>Trial</b>. Things we think are ready for use, but not as completely proven as those in the Adopt ring.&nbsp;</p>
+            </li>
+            <li><p><b>Assess</b>. Things to look at closely, but not necessarily trial yet — unless you think they would be a particularly good fit for you.</p>
+            </li>
+            <li><p><b>Hold</b>. Proceed with caution.</p>
+            </li>
+          </ul>
+          <p>Explore the interactive version by quadrant, or download the PDF to read the Radar in full.</p>
+        </div>
+      </div>
     </main>
     <footer class="home-page">
       <div class="pdf-footer">
         <div class="pdf-powered-by-text">
           <span>Powered by</span>
-          <a href="https://www.thoughtworks.com">
-            <img class="pdf-tw-logo" src="<%= base %>images/tw-logo.png" alt="logo" />
-          </a>
-          <div class="pdf-footer-title">Build your own Radar</div>
-          <a class="radar-link" id="generated-radar-link" href="https://radar.thoughtworks.com">
-            radar.thoughtworks.com
+          <a href="https://next.ride.capital">
+            <img class="pdf-ride-logo" src="<%= base %>images/RIDE-logo-color.png" alt="logo" />
           </a>
         </div>
       </div>
-      <p class="agree-terms">
-        Powered by <a href="https://www.thoughtworks.com"> Thoughtworks</a>. By using this service you agree to
-        <a href="https://www.thoughtworks.com/radar/tos">Thoughtworks' terms of use</a>. You also agree to our
-        <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather,
-        use and protect any personal data contained in your public Google Sheet. This software is
-        <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and
-        self-hosting.
-      </p>
     </footer>
     <div class="pdf-page-footer">
-      <div class="footer-left">radar.thoughtworks.com</div>
+      <div class="footer-left">codenamesage.github.io/tech-radar/</div>
       <div class="footer-right">
-        Build your own radar, <span class="footer-date">dd/mm/yyyy</span> | <span class="footer-page-number">00</span>
+        RIDE Capital Tech Radar, <span class="footer-date">dd/mm/yyyy</span> | <span class="footer-page-number">00</span>
       </div>
     </div>
   </body>

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Vite",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Jenkins as a deployment pipeline",
+    "ring": "Adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "TypeScript/JavaScript",
+    "ring": "Adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Node.js 20.x",
+    "ring": "Adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "React/React Native",
+    "ring": "Adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Ruby on Rails",
+    "ring": "Adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Golang",
+    "ring": "Hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Rust",
+    "ring": "Hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Java/Kotlin",
+    "ring": "Hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Flutter",
+    "ring": "Hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Docker",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Pair Programming",
+    "ring": "Adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": ""
+  }
+]

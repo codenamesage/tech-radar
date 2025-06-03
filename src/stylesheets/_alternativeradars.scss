@@ -10,6 +10,10 @@
     @include media-query-medium {
       align-items: center;
     }
+
+    .description {
+      margin-top: 40px;
+    }
   }
 
   .alternative-radars {

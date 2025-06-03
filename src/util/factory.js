@@ -309,6 +309,12 @@ const Factory = function () {
       return
     }
 
+    //By pass the form submission
+    sheet = JSONFile('https://raw.githubusercontent.com/codenamesage/tech-radar/refs/heads/main/src/data/data.json')
+    sheet.init().build()
+    setDocumentTitle()
+
+    //Not used code below:
     window.addEventListener('keydown', function (e) {
       if (featureToggles.UIRefresh2022 && e.key === '/') {
         const inputElement =
@@ -353,7 +359,6 @@ const Factory = function () {
 
         plotFooter(content)
       }
-
       setDocumentTitle()
     }
   }
