@@ -40,21 +40,26 @@ header {
     }
   }
 
-  .radar-title__logo {
-    flex: 0 0 30%;
-    margin-left: auto;
-
-    width: 30%;
+  .input-sheet__logo {
     display: table-cell;
+    width: 30%;
+    text-align: right;
+    padding-right: 10%;
     vertical-align: middle;
+
+    span {
+      margin-right: 10px;
+      vertical-align: middle;
+    }
 
     a {
       border-bottom: none;
-    }
-
-    img {
+      display: inline-block;
       vertical-align: middle;
-      width: 34%;
+
+      img {
+        vertical-align: middle;
+      }
     }
   }
 }
